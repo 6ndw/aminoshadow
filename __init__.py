@@ -9,7 +9,7 @@ from .client import Client
 from .sub_client import SubClient
 from .lib.util import exceptions, helpers, objects, headers
 from .asyncshadow import acm, client, sub_client, socket
-from .shadow_socket import Callbacks, SocketHandler
+from .socket import Callbacks, SocketHandler
 from requests import get
 from json import loads
 
